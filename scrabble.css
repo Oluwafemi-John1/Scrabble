@@ -1,0 +1,48 @@
+body {
+    background: #f5f5dc;
+}
+
+div#mainMain {
+    float: left;
+
+}
+.scrabble {
+    width: 960px;
+    height: 960px;
+    margin: 20px;
+    border: 5px solid #000;
+    border-radius: 5px;
+    background: #002E07;
+    box-shadow: 5px 5px 8px #bebdb6, -5px -5px 8px #ffffff;
+}
+
+.tiles {
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border-color: #ffffff;
+    background: #779974;
+    font-size: 15px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div#tri {
+    background-color: red;
+}
+
+div#dou {
+    background-color: #CA9F2C;
+}
+
+div#tril {
+    background-color: blue;
+}
+
+div#doul {
+    background-color: #4EB0F3;
+}
